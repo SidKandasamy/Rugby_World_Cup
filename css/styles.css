@@ -7058,10 +7058,10 @@ footer {
   padding-bottom: 3rem; }
 
 footer p {
-  margin-bottom: .25rem; }
+  margin-bottom: 0.25rem; }
 
 /* GLOBAL STYLES
--------------------------------------------------- */
+  -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 body {
   padding-top: 3rem;
@@ -7069,7 +7069,7 @@ body {
   color: #5a5a5a; }
 
 /* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
+  -------------------------------------------------- */
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem; }
@@ -7091,7 +7091,7 @@ body {
   height: 32rem; }
 
 /* MARKETING CONTENT
--------------------------------------------------- */
+  -------------------------------------------------- */
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
@@ -7101,11 +7101,11 @@ body {
   font-weight: 400; }
 
 .marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem; }
+  margin-right: 0.75rem;
+  margin-left: 0.75rem; }
 
 /* Featurettes
-------------------------- */
+  ------------------------- */
 .featurette-divider {
   margin: 5rem 0;
   /* Space out the Bootstrap <hr> more */ }
@@ -7117,7 +7117,7 @@ body {
   letter-spacing: -.05rem; }
 
 /* RESPONSIVE CSS
--------------------------------------------------- */
+  -------------------------------------------------- */
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
   .carousel-caption p {
@@ -7132,7 +7132,7 @@ body {
     margin-top: 7rem; } }
 
 .jumbotron {
-  background-image: url(../images/rugbyWC.jpg);
+  background-image: url("../images/rugbyWC.jpg");
   background-size: cover; }
 
 .rugby-text {
