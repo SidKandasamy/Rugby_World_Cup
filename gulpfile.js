@@ -5,6 +5,7 @@ let rename = require('gulp-rename');
 let sass = require('gulp-sass');
 let concat = require('gulp-concat');
 let uglify = require('gulp-uglify-es').default;
+let browserSync = require('browser-sync').create();
 
 
 // SCSS and CSS tasks
@@ -57,5 +58,20 @@ gulp.task('scripts', gulp.series('concat', 'minify-js'));
 
 // Create a gulp task to watch all my scss and js files for changes and run a set of gulp series when those files are updated
 gulp.task('watch', function () {
-	return gulp.watch(['./scss/**/*.scss', './scss/**/*.css', , './js/*.js'], gulp.series('styles', 'scripts'));
+	return gulp.watch(['./scss/**/*.scss', './js/*.js'], gulp.series('styles', 'scripts', 'browser-sync-reload'));
+});
+
+// watch, as above, but with BrowserSync
+gulp.task('watch-bs', function () {
+    browserSync.init({
+        server: {
+            baseDir: "./"
+        }
+    });
+
+	gulp.watch(['./scss/**/*.scss', './js/*.js'], gulp.series('styles', 'scripts', 'browser-sync-reload'));
+});
+
+gulp.task('browser-sync-reload', function() {
+    browserSync.reload();
 });
