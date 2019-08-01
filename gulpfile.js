@@ -12,7 +12,7 @@ let browserSync = require('browser-sync').create();
 
 // Create a gulp task to combine and convert all scss files to single css file
 gulp.task('sass', function () {
-    let stream = gulp.src('node_modules/bootstrap/scss/bootstrap.scss,')
+    let stream = gulp.src('./scss/styles.scss')
         .pipe(sass())
         .pipe(gulp.dest('./css/'))
         .pipe(rename('styles.css'));
