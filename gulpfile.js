@@ -24,7 +24,7 @@ gulp.task('minify-css', () => {
   return gulp.src('./css/styles.css')
 	.pipe(cleanCSS({compatibility: 'ie8'}))
 	.pipe(rename({suffix: '.min'}))
-	.pipe(gulp.dest('./css/'));
+  .pipe(gulp.dest('./css/'));
 });
 
 // Create gulp series (series of tasks) to run css related tasks simultaneously
@@ -52,26 +52,20 @@ gulp.task("minify-js", function () {
 // Create gulp series (series of tasks) to run javscript related tasks simultaneously
 gulp.task('scripts', gulp.series('concat', 'minify-js'));
 
+function reload(done) {
+  browserSync.reload();
+  done();
+}
 
+function serve(done) {
+  browserSync.init({
+    server: {
+      baseDir: './'
+    }
+  });
+  done();
+}
 
-// Watch function
+const watch = () => gulp.watch(['./scss/**/*.scss', './js/*.js'], gulp.series('styles', 'scripts', reload));
 
-// Create a gulp task to watch all my scss and js files for changes and run a set of gulp series when those files are updated
-gulp.task('watch', function () {
-	return gulp.watch(['./scss/**/*.scss', './js/*.js'], gulp.series('styles', 'scripts', 'browser-sync-reload'));
-});
-
-// watch, as above, but with BrowserSync
-gulp.task('watch-bs', function () {
-    browserSync.init({
-        server: {
-            baseDir: "./"
-        }
-    });
-
-	gulp.watch(['./scss/**/*.scss', './js/*.js'], gulp.series('styles', 'scripts', 'browser-sync-reload'));
-});
-
-gulp.task('browser-sync-reload', function() {
-    browserSync.reload();
-});
+gulp.task('default', gulp.series(serve, watch));

@@ -1,3 +1,7 @@
+body {
+    padding-top: 0 !important;
+}
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -149,4 +153,32 @@ body {
 
 .rugby-text {
     color: white;
+}
+
+.team-images {
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: red;
+}
+
+.firstSection {
+    display: flow-root;
+
+}
+
+#name {
+    width: 400px;
+    height: 40px;
+    margin-left: 5px;
+    border-top: 10px;
+}
+
+#email {
+    width: 400px;
+    height: 40px;
 }
