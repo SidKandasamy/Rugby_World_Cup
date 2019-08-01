@@ -7162,3 +7162,6 @@ body {
 #email {
   width: 400px;
   height: 40px; }
+
+.rounded-circle {
+  max-width: 230px; }
