@@ -7047,7 +7047,8 @@ a.text-dark:hover, a.text-dark:focus {
   margin-bottom: 0; }
 
 .jumbotron-heading {
-  font-weight: 300; }
+  font-weight: 300;
+  color: white; }
 
 .jumbotron .container {
   max-width: 40rem; }
@@ -7058,3 +7059,10 @@ footer {
 
 footer p {
   margin-bottom: .25rem; }
+
+.jumbotron {
+  background-image: url(../images/rugbyWC.jpg);
+  background-size: cover; }
+
+.rugby-text {
+  color: white; }
