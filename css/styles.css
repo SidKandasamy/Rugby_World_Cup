@@ -7162,6 +7162,11 @@ body {
   width: 400px;
   height: 40px; }
 
+
+.rounded-circle {
+  max-width: 230px; }
+
+
 .column-right {
   width: 50%;
   height: 255px; }
@@ -7209,3 +7214,4 @@ textarea {
 .footer-color {
   background-color: #00688B;
   color: white; }
+
