@@ -159,11 +159,11 @@ body {
     width: 100%;
 }
 
-.form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: red;
+
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .firstSection {
@@ -178,11 +178,73 @@ body {
     border-top: 10px;
 }
 
-#email {
-    width: 400px;
-    height: 40px;
+
+#email{
+  width:400px;
+  height: 40px;
 }
+
+.column-right {
+  width: 50%;
+  height:255px;
+}
+
+textarea{
+  width: 350px;
+  height: 150px;
+}
+
+.column-left {
+  float: left;
+  width: 50%;
+  height: 255px;
+}
+
+.name {
+
+  padding-left: 20px;
+  padding-right: 200px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 90px;
+  margin-left: 10%;
+}
+
 
 .rounded-circle {
   max-width: 230px;
 }
+
+
+.email {
+
+  padding-left: 20px;
+  padding-right: 200px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 90px;
+  margin-left: 10%;
+}    
+
+.submit {
+  float: right;
+  margin-right: 99px;
+  background-color: red;
+  font-family: 'kurale', arial, sans-serif;
+  color: white;
+  border-radius: 15px;
+  width: 86px;
+  height: 45px;
+  font-size: 20px;
+
+}
+#message {
+  margin-left: 70px;
+  padding: 10px;
+}
+
+.footer-color{
+  background-color: #00688B;
+  color: white;
+}
+
