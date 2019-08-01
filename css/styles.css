@@ -7020,6 +7020,69 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+.rugby-text {
+  color: white; }
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.firstSection {
+  display: flow-root; }
+
+#name {
+  width: 400px;
+  height: 40px;
+  margin-left: 5px;
+  border-top: 10px; }
+
+#email {
+  width: 400px;
+  height: 40px; }
+
+.column-right {
+  width: 50%;
+  height: 255px; }
+
+textarea {
+  width: 350px;
+  height: 150px; }
+
+.column-left {
+  float: left;
+  width: 50%;
+  height: 255px; }
+
+.name {
+  padding: 20px 200px 20px 20px;
+  width: 90px;
+  margin-left: 10%; }
+
+.email {
+  padding: 20px 200px 20px 20px;
+  width: 90px;
+  margin-left: 10%; }
+
+.submit {
+  float: right;
+  margin-right: 99px;
+  background-color: red;
+  font-family: 'kurale', arial, sans-serif;
+  color: white;
+  border-radius: 15px;
+  width: 86px;
+  height: 45px;
+  font-size: 20px; }
+
+#message {
+  margin-left: 70px;
+  padding: 10px; }
+
+.footer-color {
+  background-color: #00688B;
+  color: white; }
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -7036,7 +7099,9 @@ a.text-dark:hover, a.text-dark:focus {
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin-bottom: 0;
-  background-color: #fff; }
+  background-color: #fff;
+  background-image: url("../images/rugbyWC.jpg");
+  background-size: cover; }
 
 @media (min-width: 768px) {
   .jumbotron {
@@ -7059,6 +7124,9 @@ footer {
 
 footer p {
   margin-bottom: 0.25rem; }
+
+.team-images {
+  width: 100%; }
 
 /* GLOBAL STYLES
   -------------------------------------------------- */
@@ -7129,75 +7197,5 @@ body {
   .featurette-heading {
     margin-top: 7rem; } }
 
-.jumbotron {
-  background-image: url("../images/rugbyWC.jpg");
-  background-size: cover; }
-
-.team-images {
-  width: 100%; }
-
-.rugby-text {
-  color: white; }
-
-.form {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; }
-
-.firstSection {
-  display: flow-root; }
-
-#name {
-  width: 400px;
-  height: 40px;
-  margin-left: 5px;
-  border-top: 10px; }
-
-#email {
-  width: 400px;
-  height: 40px; }
-
-.column-right {
-  width: 50%;
-  height: 255px; }
-
-textarea {
-  width: 350px;
-  height: 150px; }
-
-.column-left {
-  float: left;
-  width: 50%;
-  height: 255px; }
-
-.name {
-  padding: 20px 200px 20px 20px;
-  width: 90px;
-  margin-left: 10%; }
-
 .rounded-circle {
   max-width: 230px; }
-
-.email {
-  padding: 20px 200px 20px 20px;
-  width: 90px;
-  margin-left: 10%; }
-
-.submit {
-  float: right;
-  margin-right: 99px;
-  background-color: red;
-  font-family: 'kurale', arial, sans-serif;
-  color: white;
-  border-radius: 15px;
-  width: 86px;
-  height: 45px;
-  font-size: 20px; }
-
-#message {
-  margin-left: 70px;
-  padding: 10px; }
-
-.footer-color {
-  background-color: #00688B;
-  color: white; }
