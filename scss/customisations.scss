@@ -18,6 +18,8 @@
     padding-bottom: 3rem;
     margin-bottom: 0;
     background-color: #fff;
+    
+
   }
   @media (min-width: 768px) {
     .jumbotron {
@@ -32,6 +34,7 @@
   
   .jumbotron-heading {
     font-weight: 300;
+    color: white;
   }
   
   .jumbotron .container {
@@ -45,4 +48,14 @@
   
   footer p {
     margin-bottom: .25rem;
+  }
+
+
+  .jumbotron {
+  background-image: url(../images/rugbyWC.jpg);
+  background-size: cover;
+  }
+  
+  .rugby-text{
+    color:white;
   }
