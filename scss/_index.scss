@@ -140,3 +140,6 @@ footer p {
     height: 300px;
 }
 
+.navbar>.container, .navbar>.container-fluid {
+    justify-content: flex-start;
+}
