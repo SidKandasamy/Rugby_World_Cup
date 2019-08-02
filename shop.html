@@ -7,26 +7,88 @@
         <meta name="description" content="">
         <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
         <meta name="generator" content="Jekyll v3.8.5">
-        <title>Album example · Bootstrap</title>
+        <title>Rugby World Cup 2019</title>
 
         <!-- Bootstrap core CSS &B customisations -->
         <link href="css/styles.min.css" rel="stylesheet">
 
     </head>
 
-    <body>
+    <body class="shop-page">
         <header>
-            <div class="navbar navbar-dark bg-dark shadow-sm">
-                <div class="container d-flex justify-content-between">
-                    <a href="#" class="navbar-brand d-flex align-items-center">
-                        <strong>Home</strong>
-                    </a>
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">RWC 2019</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home
+                                <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Teams</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline mt-2 mt-md-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
                 </div>
-            </div>
+            </nav>
         </header>
 
         <main role="main">
-            <h1>Test me!</h1>
+            <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+                <div class="position-absolute shop-banner"></div>
+                <div class="col-md-8 p-lg-5 mx-auto my-5 shop-banner-text">
+                    <h1 class="display-4 font-weight-normal">RWC 2019 Shop</h1>
+                    <p class="lead font-weight-normal">Get your team gear now with next day delivery</p>
+                    <a class="btn btn-outline-secondary" href="#">Browse Shop</a>
+                </div>
+            </div>
+
+            <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+                <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden wales-collection">
+                    <div class="my-3 py-3">
+                        <h2 class="display-5">WALES</h2>
+                        <p class="lead">RWC 2019 Collection</p>
+                        <a class="btn btn-outline-secondary" href="#">Shop Collection</a>
+                    </div>
+                    <div class="bg-light shadow-sm mx-auto wales-collection-img" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+                </div>
+                <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden black-collection">
+                    <div class="my-3 p-3">
+                        <h2 class="display-5">ALL BLACKS</h2>
+                        <p class="lead">RWC 2019 Collection</p>
+                        <a class="btn btn-outline-secondary" href="#">Shop Collection</a>
+                    </div>
+                    <div class="bg-dark shadow-sm mx-auto black-collection-img" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+                </div>
+            </div>
+
+            <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+                <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden aus-collection">
+                    <div class="my-3 p-3">
+                        <h2 class="display-5">AUSTRALIA</h2>
+                        <p class="lead">RWC 2019 Collection</p>
+                        <a class="btn btn-outline-secondary" href="#">Shop Collection</a>
+                    </div>
+                    <div class="shadow-sm mx-auto aus-collection-img" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+                </div>
+                <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden sa-collection">
+                    <div class="my-3 py-3">
+                        <h2 class="display-5">SOUTH AFRICA</h2>
+                        <p class="lead">RWC 2019 Collection</p>
+                        <a class="btn btn-outline-secondary" href="#">Shop Collection</a>
+                    </div>
+                    <div class="shadow-sm mx-auto sa-collection-img" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+                </div>
+            </div>
         </main>
 
         <footer class="text-muted footer-color">

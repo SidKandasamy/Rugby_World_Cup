@@ -7211,3 +7211,99 @@ body {
 
 .rounded-circle {
   max-width: 230px; }
+
+.shop-page {
+  /*
+ * Custom translucent site header
+ */
+  /*
+ * Extra utilities
+ */ }
+  .shop-page .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+    @media (min-width: 768px) {
+      .shop-page .bd-placeholder-img {
+        font-size: 3.5rem; } }
+  .shop-page .container {
+    max-width: 960px; }
+  .shop-page .site-header {
+    background-color: rgba(0, 0, 0, 0.85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px); }
+  .shop-page .site-header a {
+    color: #999;
+    transition: ease-in-out color 0.15s; }
+  .shop-page .site-header a:hover {
+    color: #fff;
+    text-decoration: none; }
+  .shop-page .flex-equal > * {
+    -ms-flex: 1;
+    flex: 1; }
+  @media (min-width: 768px) {
+    .shop-page .flex-md-equal > * {
+      -ms-flex: 1;
+      flex: 1; } }
+  .shop-page .overflow-hidden {
+    overflow: hidden; }
+  .shop-page .shop-banner {
+    background-image: url("../images/team-scrum.jpg");
+    background-size: cover;
+    filter: brightness(0.5);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0; }
+  .shop-page .shop-banner-text h1,
+  .shop-page .shop-banner-text p {
+    color: white;
+    text-shadow: 0 1px 2px #333; }
+  .shop-page .shop-banner-text .lead {
+    text-transform: capitalize; }
+  .shop-page .btn.btn-outline-secondary {
+    color: white;
+    border-color: white; }
+    .shop-page .btn.btn-outline-secondary:hover {
+      color: black;
+      background-color: white; }
+  .shop-page .wales-collection {
+    background-color: #e43535; }
+    .shop-page .wales-collection-img {
+      background: url("../images/wales-homeage_1000x.jpg") center center/cover no-repeat white; }
+    .shop-page .wales-collection .display-5,
+    .shop-page .wales-collection .lead {
+      color: color; }
+  .shop-page .black-collection {
+    background-color: #0b2e54; }
+    .shop-page .black-collection-img {
+      background: url("../images/ab-big-home-dekstop_1000x.jpg") center center/cover no-repeat white; }
+    .shop-page .black-collection .display-5,
+    .shop-page .black-collection .lead {
+      color: white; }
+  .shop-page .aus-collection {
+    background-color: #06472d; }
+    .shop-page .aus-collection-img {
+      background: url("../images/small-desktop-aus_590x.jpg") center center/cover no-repeat white; }
+    .shop-page .aus-collection .display-5,
+    .shop-page .aus-collection .lead {
+      color: white; }
+  .shop-page .sa-collection {
+    background-color: #ffb40c; }
+    .shop-page .sa-collection-img {
+      background: url("../images/south-africa_590x.jpg") center center/cover no-repeat white; }
+    .shop-page .sa-collection .display-5,
+    .shop-page .sa-collection .lead {
+      color: #222; }
+    .shop-page .sa-collection .btn.btn-outline-secondary {
+      color: #222;
+      border-color: #222; }
+      .shop-page .sa-collection .btn.btn-outline-secondary:hover {
+        color: white;
+        background-color: #222; }
+  .shop-page .pt-md-5,
+  .shop-page .py-md-5 {
+    padding-top: 0 !important; }
