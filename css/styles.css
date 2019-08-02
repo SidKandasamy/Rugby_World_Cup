@@ -7129,6 +7129,10 @@ footer p {
   width: 100%;
   height: 300px; }
 
+.navbar > .container,
+.navbar > .container-fluid {
+  justify-content: flex-start; }
+
 /* GLOBAL STYLES
   -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
