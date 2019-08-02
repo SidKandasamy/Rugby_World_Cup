@@ -7204,3 +7204,62 @@ body {
 
 .rounded-circle {
   max-width: 230px; }
+
+.shop-page {
+  /*
+ * Custom translucent site header
+ */
+  /*
+ * Extra utilities
+ */ }
+  .shop-page .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+    @media (min-width: 768px) {
+      .shop-page .bd-placeholder-img {
+        font-size: 3.5rem; } }
+  .shop-page .container {
+    max-width: 960px; }
+  .shop-page .site-header {
+    background-color: rgba(0, 0, 0, 0.85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px); }
+  .shop-page .site-header a {
+    color: #999;
+    transition: ease-in-out color 0.15s; }
+  .shop-page .site-header a:hover {
+    color: #fff;
+    text-decoration: none; }
+  .shop-page .flex-equal > * {
+    -ms-flex: 1;
+    flex: 1; }
+  @media (min-width: 768px) {
+    .shop-page .flex-md-equal > * {
+      -ms-flex: 1;
+      flex: 1; } }
+  .shop-page .overflow-hidden {
+    overflow: hidden; }
+  .shop-page .shop-banner {
+    background-image: url("../images/team-scrum.jpg");
+    background-size: cover;
+    filter: brightness(0.5);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0; }
+  .shop-page .shop-banner-text h1,
+  .shop-page .shop-banner-text p {
+    color: white;
+    text-shadow: 0 1px 2px #333; }
+  .shop-page .shop-banner-text .lead {
+    text-transform: capitalize; }
+  .shop-page .shop-banner-text .btn.btn-outline-secondary {
+    color: white;
+    border-color: white; }
+    .shop-page .shop-banner-text .btn.btn-outline-secondary:hover {
+      color: black;
+      background-color: white; }
