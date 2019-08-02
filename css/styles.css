@@ -7263,3 +7263,31 @@ body {
     .shop-page .shop-banner-text .btn.btn-outline-secondary:hover {
       color: black;
       background-color: white; }
+  .shop-page .wales-collection {
+    background-color: #e43535; }
+    .shop-page .wales-collection-img {
+      background: url("../images/wales-homeage_1000x.jpg") center center/cover no-repeat white; }
+    .shop-page .wales-collection .display-5,
+    .shop-page .wales-collection .lead {
+      color: color; }
+  .shop-page .black-collection {
+    background-color: #222; }
+    .shop-page .black-collection-img {
+      background: url("../images/ab-big-home-dekstop_1000x.jpg") center center/cover no-repeat white; }
+    .shop-page .black-collection .display-5,
+    .shop-page .black-collection .lead {
+      color: white; }
+  .shop-page .aus-collection {
+    background-color: #1f611f; }
+    .shop-page .aus-collection-img {
+      background: url("../images/small-desktop-aus_590x.jpg") center center/cover no-repeat white; }
+    .shop-page .aus-collection .display-5,
+    .shop-page .aus-collection .lead {
+      color: white; }
+  .shop-page .sa-collection {
+    background-color: #e6a220; }
+    .shop-page .sa-collection-img {
+      background: url("../images/south-africa_590x.jpg") center center/cover no-repeat white; }
+    .shop-page .sa-collection .display-5,
+    .shop-page .sa-collection .lead {
+      color: white; }

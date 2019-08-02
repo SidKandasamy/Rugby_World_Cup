@@ -86,4 +86,58 @@
             }
         }
     }
+
+    .wales-collection {
+        // background-color: #e43535;
+        background-color: #e43535;
+
+        &-img {
+            background: url("../images/wales-homeage_1000x.jpg") center center / cover no-repeat white;
+        }
+
+        .display-5,
+        .lead {
+            color: color;
+        }
+    }
+
+    .black-collection {
+        background-color: #222;
+
+        &-img {
+            background: url("../images/ab-big-home-dekstop_1000x.jpg") center center / cover no-repeat white;
+        }
+
+        .display-5,
+        .lead {
+            color: white;
+        }
+    }
+
+    .aus-collection {
+        // background-color: #2d772d;
+        background-color: #1f611f;
+
+        &-img {
+            background: url("../images/small-desktop-aus_590x.jpg") center center / cover no-repeat white;
+        }
+
+        .display-5,
+        .lead {
+            color: white;
+        }
+    }
+
+    .sa-collection {
+        background-color: #e6a220;
+
+        &-img {
+            background: url("../images/south-africa_590x.jpg") center center / cover no-repeat white;
+        }
+
+        .display-5,
+        .lead {
+            color: white;
+        }
+    }
 }
