@@ -75,15 +75,15 @@
         .lead {
             text-transform: capitalize;
         }
+    }
 
-        .btn.btn-outline-secondary {
-            color: white;
-            border-color: white;
+    .btn.btn-outline-secondary {
+        color: white;
+        border-color: white;
 
-            &:hover {
-                color: black;
-                background-color: white;
-            }
+        &:hover {
+            color: black;
+            background-color: white;
         }
     }
 
@@ -102,7 +102,7 @@
     }
 
     .black-collection {
-        background-color: #222;
+        background-color: #0b2e54;
 
         &-img {
             background: url("../images/ab-big-home-dekstop_1000x.jpg") center center / cover no-repeat white;
@@ -116,7 +116,7 @@
 
     .aus-collection {
         // background-color: #2d772d;
-        background-color: #1f611f;
+        background-color: #06472d;
 
         &-img {
             background: url("../images/small-desktop-aus_590x.jpg") center center / cover no-repeat white;
@@ -129,7 +129,7 @@
     }
 
     .sa-collection {
-        background-color: #e6a220;
+        background-color: #ffb40c;
 
         &-img {
             background: url("../images/south-africa_590x.jpg") center center / cover no-repeat white;
@@ -137,7 +137,22 @@
 
         .display-5,
         .lead {
-            color: white;
+            color: #222;
         }
+
+        .btn.btn-outline-secondary {
+            color: #222;
+            border-color: #222;
+
+            &:hover {
+                color: white;
+                background-color: #222;
+            }
+        }
+    }
+
+    .pt-md-5,
+    .py-md-5 {
+        padding-top: 0 !important;
     }
 }
