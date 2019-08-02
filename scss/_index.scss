@@ -12,6 +12,10 @@
     display: flow-root;
 
 }
+#message {
+    margin-left: 70px;
+    padding: 10px;
+}
 
 #name {
     width: 400px;
@@ -58,8 +62,7 @@ textarea {
 }
 
 .submit {
-    float: right;
-    margin-right: 99px;
+    
     background-color: red;
     font-family: 'kurale', arial, sans-serif;
     color: white;
@@ -69,6 +72,8 @@ textarea {
     font-size: 20px;
 
 }
+
+
 
 #message {
     margin-left: 70px;
@@ -140,6 +145,14 @@ footer p {
     height: 300px;
 }
 
-.navbar>.container, .navbar>.container-fluid {
-    justify-content: flex-start;
+.message {
+ 
+    width: 400px;
+    float: left;
+    margin-left: 0px;
+    padding-right: 0px;
+}
+
+.search-change {
+    align-self: end;
 }

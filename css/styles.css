@@ -7031,6 +7031,10 @@ a.text-dark:hover, a.text-dark:focus {
 .firstSection {
   display: flow-root; }
 
+#message {
+  margin-left: 70px;
+  padding: 10px; }
+
 #name {
   width: 400px;
   height: 40px;
@@ -7065,8 +7069,6 @@ textarea {
   margin-left: 10%; }
 
 .submit {
-  float: right;
-  margin-right: 99px;
   background-color: red;
   font-family: 'kurale', arial, sans-serif;
   color: white;
@@ -7129,9 +7131,14 @@ footer p {
   width: 100%;
   height: 300px; }
 
-.navbar > .container,
-.navbar > .container-fluid {
-  justify-content: flex-start; }
+.message {
+  width: 400px;
+  float: left;
+  margin-left: 0px;
+  padding-right: 0px; }
+
+.search-change {
+  align-self: end; }
 
 /* GLOBAL STYLES
   -------------------------------------------------- */
