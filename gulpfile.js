@@ -66,6 +66,6 @@ function serve(done) {
   done();
 }
 
-const watch = () => gulp.watch(['./scss/**/*.scss', './js/*.js'], gulp.series('styles', 'scripts', reload));
+const watch = () => gulp.watch(['./scss/**/*.scss', './js/*.js', './*.html'], gulp.series('styles', 'scripts', reload));
 
 gulp.task('default', gulp.series(serve, watch));
